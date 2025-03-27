@@ -47,8 +47,8 @@ const totalPizzas = pizzaPrecio * cantidadDePizzas;
     }
 
     if (estadoElemento) {
-        const horaApertura = 5;
-        const horaCierre = 24;
+        const horaApertura = 10;
+        const horaCierre = 18;
 
         if (esSitioActivo(horaApertura, horaCierre)) {
             estadoElemento.textContent = "Pizzeria La Cancha";
