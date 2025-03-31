@@ -47,7 +47,7 @@ const totalPizzas = pizzaPrecio * cantidadDePizzas;
     }
 
     if (estadoElemento) {
-        const horaApertura = 8;
+        const horaApertura = 6;
         const horaCierre = 18;
 
         if (esSitioActivo(horaApertura, horaCierre)) {
